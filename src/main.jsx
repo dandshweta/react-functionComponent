@@ -16,7 +16,7 @@ import Demo from "./day7/Demo.jsx";
 import Demo1 from "./day7/count.jsx";
 import ParentView from "./day8/parent.jsx";
 import Parent from "./props/parent.jsx";
-import HomeView from "./day9/parent1.jsx";
+// import HomeView from "./day9/parent1.jsx";
 // import './index.css'
 
 import ParentButton2 from "./day9/button.jsx";
@@ -42,7 +42,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Demo1 />
     <ParentView />
     <Parent />
-    <HomeView />
+    {/* <HomeView /> */}
     <ParentButton2 />
     <Parentcolorsize />
     <BtnParent />
