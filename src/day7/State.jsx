@@ -17,6 +17,12 @@ const Counter = () => {
        */}{" "}
       <button onClick={() => onBtnClick()}>Increment via Func</button>
       <button onClick={onBtnClick}>Increment via CB</button>
+      {/* const onBtnClick = () => {
+    setCounter(counter + 1);
+    setCounter(counter + 1);
+    setCounter(counter + 1);
+    setCounter(counter + 1);
+  }; */}
     </div>
   );
 };
