@@ -64,6 +64,9 @@ import UseCallbackV22 from "./day22/callbackmemoParent1";
 import UseCallbackV23 from "./day22/blankdependency/useCallback";
 import UseMemo1 from "./useMemopractice/useMemo";
 import ExampleUseCallback from "./useMemopractice/usecallback";
+import UsecallbackParent from "./useMemopractice/usecallback/UseCallbackParent";
+import ParentD24A from "./day23/ParentUseState";
+import ParentuseContext from "./day23/task-dataPassFromChildToparent/parentuseContext";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
     {/* <FCCounter /> */}
@@ -123,7 +126,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <Products /> */}
     {/* <UseCallbackV22 /> */}
     {/* <UseCallbackV23 /> */}
-    <UseMemo1 />
-    <ExampleUseCallback />
+    {/* <UseMemo1 /> */}
+    {/* <ExampleUseCallback /> */}
+    {/* <UsecallbackParent /> */}
+    {/* <ParentD24A /> */}
+    <ParentuseContext />
   </>
 );
